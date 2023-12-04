@@ -1,22 +1,22 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
-    background-color: black;
+    background-image: url('https://images.wallpaperscraft.com/image/single/christmas_toy_tree_christmas_131378_3840x2160.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
   }
   
   .countdown-container {
     text-align: center;
-    background-image: url('https://avatars.mds.yandex.net/i?id=eb6815537a89a5121b5b5a16e364e4deceb85cf9-10619913-images-thumbs&n=13');
-    background-size: contain;
-    background-position: center;
     padding: 50px;
     border-radius: 10px;
-    color: white;
-    object-fit: cover;
+    background-color: rgba(0, 0, 0, 0.5); /* Adding a semi-transparent overlay for better readability */
   }
   
   #countdown {
