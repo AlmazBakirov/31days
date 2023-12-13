@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- Coding By Code Block youtube.com/c/CodeBlockYT -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Mail</title>
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+      <div class="text">Send us a message</div>
+      <form action="#" id="form" autocomplete="off">
+        <div class="form-field">
+          <div class="dbl-field">
+            <div class="input-field">
+              <input type="text" placeholder="Enter Username" id="input">
+              <div class="icon"><i class="fa fa-user"></i></div>
+            </div>
+            <div class="input-field">
+              <input type="email" placeholder="Enter Email Address" id="email">
+              <div class="icon"><i class="fa fa-envelope"></i></div>
+            </div>
+          </div>
+          <div class="new-field">
+            <div class="input-field">
+              <input type="text" placeholder="Enter Phone Number" id="phone">
+              <div class="icon"><i class="fa fa-phone-alt"></i></div>
+            </div>
+            <div class="input-field">
+              <input type="text" placeholder="Enter your website" id="website">
+              <div class="icon"><i class="fa fa-globe"></i></div>
+            </div>
+          </div>
+          <div class="message">
+            <textarea placeholder="Write your message" id="write"></textarea>
+            <div class="icon"><i class="fa fa-comment-alt"></i></div>
+          </div>
+        </div>
+        <div class="button-area">
+          <button type="submit" id="button">Send Message</button>
+        </div>
+        <div class="error-text" id="error">All field must be filled</div>
+      </form>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
